@@ -1,0 +1,44 @@
+R 1
+
+x <- 5
+5 -> x
+快捷键option加-号
+
+setwd(dir = "") 使用字符串都需要加引号
+getwd()
+
+ls("")
+ls.str()
+str(xxx)
+ls(all.names = TRUE)
+
+
+rm()
+rm(list()=ls)
+快捷键control+L 全删
+
+history()
+history(xx)查看xx条历史
+
+连网在线装
+install.packages()
+源代码装
+
+查看包路径 .libPaths()
+library() 看包
+library(xxx)载入包
+require(xxx)载入包 更简单
+help(package = "xxxx") 列出包的帮助文档
+library(help="xxx")列出包的信息
+直接输入里面的数据集就可以看到内容
+ls("package:xxx") 查看包中函数
+data(package="xxx")查看数据集
+detach("package:xxx")移除
+remove.packages("xxx")删除
+
+克隆思路 这台电脑打包 给另外一个电脑
+
+help.start() 联网帮助文档
+？xxx
+args（xxx）
+
